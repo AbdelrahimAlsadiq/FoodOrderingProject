@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+@layer components {
+  .yellow-bg {
+    @apply bg-[url('./assets/images/yellow-background.png')] bg-cover;
+  }
+  .home-bg {
+    @apply bg-[url('./assets/images/home-bg.png')];
+  }
+}
+
+
+@font-face {
+  font-family: 'vipCartoon';
+  src: url('./fonts/alfont_com_vip-cartoon-vip-cartoon.ttf') format('truetype'); /* Replace with the correct path to your font file */
+  /* You can include additional formats (e.g., woff, woff2) for better browser compatibility */
+}
+@keyframes fade-in {
+  0% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: #0000006b;
+  }
+}
+
+/* Apply the animation to the div */
+.transparent-dark {
+  animation-name: fade-in;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards; /* Maintain the final state of the animation */
+}
+
+.no-scroll-bar::-webkit-scrollbar {
+  display: none;
+}
+.no-scroll-bar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.x {
+  position: relative;
+}
