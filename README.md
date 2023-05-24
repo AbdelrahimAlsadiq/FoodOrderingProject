@@ -10,20 +10,21 @@ This project is a web-based application that facilitates the ordering and delive
 - Jena Hana Yousef
 
 ## Features
-User Registration and Authentication: Users can create accounts, log in, and manage their profiles.
-Restaurant Management: Restaurants can register, manage menus, update item availability, and process incoming orders.
-Order Placement: Users can browse restaurant menus, customize their orders, and place orders.
-Payment Processing: Secure payment transactions are facilitated, with support for multiple gateways.
-Order Tracking: Users can track the status of their orders in real-time, including estimated delivery times.
-Delivery Management: Delivery personnel are managed, and orders are assigned based on location and workload.
-Customer Support: Communication channels and support features are available for addressing customer inquiries and issues.
-Technologies Used
-Frontend: HTML, CSS, JavaScript
-Backend: Node.js, Express.js
-Database: MongoDB
-Payment Gateway Integration: Stripe, PayPal
-Mapping Services: Google Maps API
-SMS Notifications: Twilio API
+- User Registration and Authentication: Users can create accounts, log in, and manage their profiles.
+- Restaurant Management: Restaurants can register, manage menus, update item availability, and process incoming orders.
+- Order Placement: Users can browse restaurant menus, customize their orders, and place orders.
+- Payment Processing: Secure payment transactions are facilitated, with support for multiple gateways.
+- Order Tracking: Users can track the status of their orders in real-time, including estimated delivery times.
+- Delivery Management: Delivery personnel are managed, and orders are assigned based on location and workload.
+- Customer Support: Communication channels and support features are available for addressing customer inquiries and issues.
+
+## Technologies Used
+- Frontend: HTML, CSS, JavaScript
+- Backend: Node.js, Express.js
+- Database: MongoDB
+- Payment Gateway Integration: Stripe, PayPal
+- Mapping Services: Google Maps API
+- SMS Notifications: Twilio API
 Installation
 Clone the repository: git clone https://github.com/your-username/food-ordering-delivery.git
 Navigate to the project directory: cd food-ordering-delivery
