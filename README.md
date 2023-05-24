@@ -25,37 +25,39 @@ This project is a web-based application that facilitates the ordering and delive
 - Payment Gateway Integration: Stripe, PayPal
 - Mapping Services: Google Maps API
 - SMS Notifications: Twilio API
-Installation
-Clone the repository: git clone https://github.com/your-username/food-ordering-delivery.git
-Navigate to the project directory: cd food-ordering-delivery
-Install dependencies: npm install
-Set up environment variables:
-Create a .env file based on the provided .env.example file.
-Replace the placeholder values with your own configuration details, such as database connection URLs and API keys.
-Start the server: npm start
-Access the application in your browser at http://localhost:3000.
-Contributing
+ 
+## Installation
+- Clone the repository: git clone https://github.com/AbdelrahimAlsadiq/FoodOrderingProject.get
+- Navigate to the project directory: cd food-ordering-delivery
+- Install dependencies: npm install
+
+## Set up environment variables:
+- Create a .env file based on the provided .env.example file.
+- Replace the placeholder values with your own configuration details, such as database connection URLs and API keys.
+- Start the server: npm start
+- Access the application in your browser at http://localhost:3000.
+
+
+## Contributing
 We welcome contributions to enhance the features, fix bugs, or improve the overall code quality. If you would like to contribute, please follow these steps:
 
-Fork the repository.
-Create a new branch for your feature/fix: git checkout -b feature/your-feature.
-Make your modifications and commit your changes: git commit -m "Add your message here".
-Push the branch to your forked repository: git push origin feature/your-feature.
-Submit a pull request describing your changes.
-Please ensure that your code adheres to the existing coding conventions and includes appropriate documentation where necessary.
+## Fork the repository.
+- Create a new branch for your feature/fix: git checkout -b feature/your-feature.
+- Make your modifications and commit your changes: git commit -m "Add your message here".
+- Push the branch to your forked repository: git push origin feature/your-feature.
+- Submit a pull request describing your changes.
+- Please ensure that your code adheres to the existing coding conventions and includes appropriate documentation where necessary.
 
-License
+## License
 This project is licensed under the MIT License.
 
-Acknowledgements
+## Acknowledgements
 We would like to thank the following resources and libraries that contributed to the development of this project:
+- React.js
+- React Slick
+- React Router
+- Tailwind CSS
+- Firebase
 
-Bootstrap
-Express.js
-MongoDB
-Stripe
-PayPal
-Google Maps API
-Twilio API
-Contact
-For any inquiries or feedback, please contact our team at [email protected]
+## Contact
+For any inquiries or feedback, please contact our team at abdelrahim.alsadiq@gmail.com
